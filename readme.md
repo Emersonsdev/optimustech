@@ -2,7 +2,7 @@
 
 Olá, Bem-vindo ao meu projeto de landing page da plataforma Alura+. Este projeto foi criado na formação de front-end da Alura, durante o curso de HTML e CSS.
 
-![image](./assets/Captura.png)
+![image](./assets/captura.png)
 
 ## Ferramentas utilizadas:
 
