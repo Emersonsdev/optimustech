@@ -114,6 +114,7 @@ body {
 
 .dispositivos__lista {
     justify-content: center;
+    align-items: center;
     display: flex;
     padding-top: 2%;
 }
@@ -188,6 +189,7 @@ body {
     .dispositivos__lista {
         flex-direction: column;
         padding: 15% 0;
+        margin: auto;
     }
 
     .footer__links {
