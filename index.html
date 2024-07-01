@@ -3,97 +3,140 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Alura+</title>
-    <link rel="stylesheet" href="styles/styles.css">
+    <title>OptimusTech</title>
+    <link rel="stylesheet" href="styles/reset.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">  
+    <link rel="stylesheet" href="styles/styles.css">
 </head>
 <body>
-    <header></header>
-    <main>
-        <section class="apresentacao">
-            <div class="apresentacao__conteudo">
-                <h1 class="apresentacao__conteudo__titulo">
-                    Com o Combo+, você pode aproveitar a Alura+ e o Alura Língua por um preço único.
-                </h1>
-                <img class="apresentacao__conteudo__imagem" src="assets/comboplus.png">
-                <a class="apresentacao__conteudo__botao" href="https://portfolio-orpin-three-88.vercel.app/">Assine por 12x de R$ 120,00*</a>
-                <a class="apresentacao__conteudo__botao botaosecundario" href="https://portfolio-orpin-three-88.vercel.app/">Assinar somente o Alura+</a>
-                <p class="apresentacao__conteudo__aviso">*O preço pode variar caso a assinatura seja feita em outros planos.</p>
-            </div>
-        </section>
-
-        <section class="vantagens">
-            <img class="vantagens__conteudo__imagem" src="assets/mockup.png">
-            <div class="vantagens__conteudo">
-                <h2 class="vantagens__conteudo__titulo">
-                    Assista do seu jeito
-                </h2>
-                <p class="bantagens__conteudo__texto">
-                    Aproveite a tela grande da TV ou assista no tablet, laptop, celular e outros aparelhos. Nossa seleção de cursos não para de crescer.
-                </p>                            
-            </div>
-            
-        </section>
-
-        <section class="vantagens vantagensinvertido">
-            <div class="vantagens__conteudo">
-                <p class="vantagens__conteudo__texto">
-                    Só o Combo+ oferece Alura+ e Alura Língua juntos para você ter acesso a cursos de diversas áreas da tecnologia e aprender inglês ou espanhol, onde e como quiser.
-                </p>
-                <a class="vantagens__conteudo__botao" href="https://portfolio-orpin-three-88.vercel.app/">Assine o Combo+</a>                            
-            </div>
-            <img class="vantagens__conteudo__imagem" src="assets/telasplus.png">            
-        </section>
-
-        <section class="vantagens">
-            <img class="vantagens__conteudo__imagem" src="assets/notebookplus.png">
-            <div class="vantagens__conteudo">
-                <h2 class="vantagens__conteudo__titulo">
-                    Baixe seus cursos
-                </h2>
-                <p class="vantagens__conteudo__texto">
-                    Baixe e assista quando e onde quiser. Assim, seus favoritos estão sempre com você, até mesmo sem internet.
-                </p>                            
-            </div>
-            
-        </section>
-
-        <section class="dispositivos">
-            <h2 class="dispositivos__conteudo__titulo">
-                Disponível nos seus dispositivos favoritos
-            </h2>
-            <ul class="dispositivos__lista">
-                <il>
-                    <img class="dispositivos__lista__imagem" src="assets/tvplus.png">
-                    <h3 class="dispositivos__lista__item">TV</h3>
-                </il>
-                <il>
-                    <img class="dispositivos__lista__imagem" src="assets/computador.png">
-                    <h3 class="dispositivos__lista__item">Computador</h3>
-                </il>
-                <il>
-                    <img class="dispositivos__lista__imagem" src="assets/celular.png">
-                    <h3 class="dispositivos__lista__item">Celulares e tablets</h3>
-                </il>                                           
-            </ul>            
-        </section>
-
-    </main>
-    <footer class="footer">
-        <img class="footer__imagem" src="assets/logoplus.png">
-        <div class="footer__links">
-            <a class="footer__links__itens" href="https://portfolio-orpin-three-88.vercel.app/">Idioma</a>
-            <a class="footer__links__itens" href="https://portfolio-orpin-three-88.vercel.app/">Dispositivos compatíveis</a>
-            <a class="footer__links__itens" href="https://portfolio-orpin-three-88.vercel.app/">Contrato de Assinatura</a>
-            <a class="footer__links__itens" href="https://portfolio-orpin-three-88.vercel.app/">Política de privacidade</a>
-            <a class="footer__links__itens" href="https://portfolio-orpin-three-88.vercel.app/">Proteção de dados no Brasil</a>
-            <a class="footer__links__itens" href="https://portfolio-orpin-three-88.vercel.app/">Anúcios personalizados</a>
-            <a class="footer__links__itens" href="https://portfolio-orpin-three-88.vercel.app/">Ajuda</a>
+    <header class="cabecalho">
+        <div class="cabecalho__logo">
+            <img src="assets/logo.svg" alt="logo do OptimusTech" class="cabecalho__logo__icone"/>
+            <h3 class="cabecalho__logo__texto">OptimusTech</h3>
         </div>
-        <p class="footer__paragrafo">® 2021 Alura, Alura+ e Alura Língua. Todos os direitos reservados. Serviço de assinatura paga. Conteúdo sujeito a disponibilidade.</p>
-        <p class="footer__paragrafo">Alura+ é um serviço pago, baseado em assinatura e sujeito a termos e condições. O serviço Alura+ é comercializado por Aovs Sistemas de Informática S.A., Rua Vergueiro, 3185 - Liberdade, São Paulo - SP, 04101-300, Brasil e CNPJ 05.555.382/0001-33</p>
-    </footer>
+
+        <ul class="cabecalho__menu">
+            <li class="cabecalho__menu__item">
+                <a href="#" class="cabecalho__menu__link">Home</a>
+            </li>
+            <li class="cabecalho__menu__item">
+                <a href="#" class="cabecalho__menu__link">Produtos</a>
+            </li>
+            <li class="cabecalho__menu__item">
+                <a href="#" class="cabecalho__menu__link">Recursos</a>
+            </li>
+            <li class="cabecalho__menu__item">
+                <a href="#" class="cabecalho__menu__link">Sobre nós</a>
+            </li>
+        </ul>
+
+        <div class="cabecalho__botoes">
+            <a href="#" class="cabecalho__botoes__item botao-secundario">Entrar</a>
+            <a href="#" class="cabecalho__botoes__item botao-primario">Cadastrar</a>
+        </div>
+    </header>
+    
+    <section class="container">
+        <span class="apresentacao__intro">Sobre nós</span>
+        <h1 class="apresentacao__titulo">Por que somos diferentes?</h1>
+        <p class="apresentacao__parag">Nós focamos nos detalhes de tudo que fazemos. Tudo para ajudar as empresas de todo o mundo a se concentrarem naquilo que é realmente importante para elas.</p>
+    </section>
+
+    <section class="dados">
+        <div class="dados__item">
+            <span class="dados__item__numero">400+</span>
+            <h6 class="dados__item__titulo">Projetos concluídos</h6>
+            <p class="dados__item__parag">Nós ajudamos a construir mais de 400 projetos incríveis.</p>
+        </div>        
+        <div class="dados__item">
+            <span class="dados__item__numero">100+</span>
+            <h6 class="dados__item__titulo">Colaboradores</h6>
+            <p class="dados__item__parag">Temos mais de 100 colaboradores no nosso time que se preocupam com nossos clientes.</p>
+        </div>
+        <div class="dados__item">
+            <span class="dados__item__numero">20k</span>
+            <h6 class="dados__item__titulo">Downloads</h6>
+            <p class="dados__item__parag">Nossos projetos que estão disponíveis em lojas já foram baixados mais de 20.000 vezes.</p>
+        </div>
+        <div class="dados__item">
+            <span class="dados__item__numero">500+</span>
+            <h6 class="dados__item__titulo">Reviews 5 estrelas</h6>
+            <p class="dados__item__parag">Estamos orgulhosos de contar com mais de 500 reviews 5 estrelas em nossos produtos.</p>
+        </div>
+    </section>
+
+    <section class="container">
+        <span class="secao__intro">Vagas abertas!</span>
+        <h2 class="secao__titulo">Estamos procurando por talentos</h2>
+        <p class="secao__parag">Somos uma equipe 100% remota com pessoas do Brasil inteiro.</p>
+        <img class="vagas__imagem" src="assets/vagas.png" alt="foto dos colaboradores"/>
+    </section>
+
+    <section class="vagas-abertas">
+        <h5 class="vagas-abertas__lista__titulo">Design</h5>
+        <ul class="vagas-abertas__lista">            
+            <li class="vagas-abertas__lista__item">
+                <h6 class="vagas-abertas__lista__vaga">Product Designer</h6>
+                <div class="vagas-abertas__lista__descricao">
+                    <p class="vagas-abertas__lista__regime">Full time</p>
+                    <p class="vagas-abertas__lista__salario">Faixa salarial: R$7.000</p>
+                </div>
+            </li>
+            <li class="vagas-abertas__lista__item">
+                <h6 class="vagas-abertas__lista__vaga">UX Designer</h6>
+                <div class="vagas-abertas__lista__descricao">
+                    <p class="vagas-abertas__lista__regime">Full time</p>
+                    <p class="vagas-abertas__lista__salario">Faixa salarial: R$6.000</p>
+                </div>
+            </li>            
+        </ul>
+
+        <h5 class="vagas-abertas__lista__titulo">Desenvolvimento de Software</h5>
+        <ul class="vagas-abertas__lista">            
+            <li class="vagas-abertas__lista__item">
+                <h6 class="vagas-abertas__lista__vaga">Desenvolvedor(a) iOS</h6>
+                <div class="vagas-abertas__lista__descricao">
+                    <p class="vagas-abertas__lista__regime">Full time</p>
+                    <p class="vagas-abertas__lista__salario">Faixa salarial: R$8.000</p>
+                </div>
+            </li>
+            <li class="vagas-abertas__lista__item">
+                <h6 class="vagas-abertas__lista__vaga">Desenvolvedor(a) Front-end</h6>
+                <div class="vagas-abertas__lista__descricao">
+                    <p class="vagas-abertas__lista__regime">Full time</p>
+                    <p class="vagas-abertas__lista__salario">Faixa salarial: R$7.000</p>
+                </div>
+            </li>
+            <li class="vagas-abertas__lista__item">
+                <h6 class="vagas-abertas__lista__vaga">Desenvolvedor(a) Back-end</h6>
+                <div class="vagas-abertas__lista__descricao">
+                    <p class="vagas-abertas__lista__regime">Full time</p>
+                    <p class="vagas-abertas__lista__salario">Faixa salarial: R$8.000</p>
+                </div>
+            </li>            
+        </ul>
+    </section>
+
+    <section class="container">
+        <span class="secao__intro">Veja o que nossos colaboradores falam sobre nós</span>
+        <h2 class="secao__titulo">OptimusTech se importa com a saúde dos seus colaboradores e sempre procura nos dar todo tipo de auxílio possível.</h2>
+        <div class="depoimento__colaborador">
+            <img class="depoimento__imagem" src="assets/Avatar.png" alt="foto da Julia Castro"/>
+            <span class="depoimento__nome">Julia Castro</span>
+            <span class="depoimento__cargo">Desenvolvedora Web</span>
+        </div>
+    </section>
+
+    <section class="container">
+        <h2 class="secao__titulo">Acompanhe as nossas oportunidades</h2>
+        <p class="secao__parag">Seja o primeiro a saber quando novas vagas serão abertas!</p>
+        <div class="formulario">
+            <input type="email" id="email" placeholder="Seu e-mail">
+            <button href="#" class="cabecalho__botoes__item botao-primario">Cadastrar</button>
+        </div>
+        <p class="rodape__texto">© 2022 OptimusTech. Todos os direitos reservados.</p>     
+    </section>   
 </body>
 </html>

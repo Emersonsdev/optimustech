@@ -1,0 +1,40 @@
+.dados {
+    display: flex;
+    padding: 5% 9%;
+    gap: 2rem;
+}
+
+.dados__item {
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    min-width: 200px;
+}
+
+.dados__item__numero {
+    font-size: 4rem;
+    font-weight: 600;
+    color: var(--cor-primaria);
+    margin-bottom: 0.75rem;
+}
+
+.dados__item__titulo {
+    font-size: 18px;
+    font-weight: 500;
+    color: var(--preto);
+    margin-bottom: 0.5rem;
+}
+
+@media (max-width: 1000px) {
+    .dados {
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+@media (max-width: 520px) {
+    .dados__item {
+        text-align: center;
+    }
+}

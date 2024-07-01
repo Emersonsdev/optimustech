@@ -1,0 +1,58 @@
+.container {
+    text-align: center;
+    padding: 9% 9% 7% 9%;
+}
+
+.secao__intro {
+    color: var(--cor-primaria);
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.secao__titulo {
+    color: var(--preto);
+    max-width: 1200px;
+    font-size: 2.25rem;
+    font-weight: 600;
+    margin: 0 auto;
+    margin-top: 1.5rem;
+}
+
+.secao__parag {
+    font-size: 1.25rem;
+    line-height: 30px;
+    max-width: 800px;
+    margin: 1.25rem auto 3rem auto;
+}
+
+.vagas__imagem {
+    width: 100%;
+}
+
+.vagas-abertas {
+    margin-left: 20%;
+}
+
+.vagas-abertas__lista {
+    padding-left: 1.5rem;
+}
+
+.vagas-abertas__lista__titulo {
+    font-size: 1.25rem;
+    font-weight: 500;
+    color: var(--preto);    
+    margin-bottom: 3.5rem;
+}
+
+.vagas-abertas__lista__vaga {
+    color: var(--preto);
+    font-size: 1.125rem;
+    font-weight: 500;
+    margin-bottom: 2rem;
+}
+
+.vagas-abertas__lista__descricao {
+    display: flex;
+    gap: 1.5rem;
+    margin-bottom: 6rem;
+}

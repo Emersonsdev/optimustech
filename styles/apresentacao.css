@@ -1,0 +1,23 @@
+.apresentacao {
+    text-align: center;
+    margin-top: 6rem;
+}
+
+.apresentacao__intro {
+    color: var(--cor-primaria);
+    font-weight: 600;
+}
+
+.apresentacao__titulo {
+    color: var(--preto);
+    font-size: 3rem;
+    font-weight: 600;
+    margin-top: 1.5rem;
+}
+
+.apresentacao__parag {
+    font-size: 1.25rem;
+    line-height: 30px;
+    max-width: 800px;
+    margin: 2.25rem auto;
+}

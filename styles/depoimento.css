@@ -1,0 +1,21 @@
+.depoimento__colaborador {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 2rem;
+}
+
+.depoimento__imagem {
+    width: 56px;
+    margin-bottom: 1rem;
+}
+
+.depoimento__nome {
+    color: var(--preto);
+    font-weight: 500;
+    margin-bottom: 0.25rem;
+}
+
+.depoimento__cargo {
+    font-size: 14px;
+}
