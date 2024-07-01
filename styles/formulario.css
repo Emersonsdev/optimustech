@@ -30,4 +30,8 @@
     .formulario {
         flex-direction: column;
     }
+
+    #email {
+        width: 90%;
+    }
 }
