@@ -52,3 +52,18 @@
         display: none;
     }
 }
+
+@media (max-width: 520px) {
+    .cabecalho {
+        padding: 4%;
+    }
+
+    .cabecalho__logo__texto {
+        display: none;
+    }
+
+    .botao-secundario {
+        margin: 0 6px;
+    }
+    
+}
